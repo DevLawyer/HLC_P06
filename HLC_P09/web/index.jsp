@@ -37,8 +37,8 @@
         <main class="container-fluid bg-main-2 p-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-10">
-                    <div class="container col-md-8 col-md-offset-3" style="overflow: auto">
-                        <h1>Acceso a la intranet</h1>
+                    <div class="container col-md-8 col-md-offset-3 bg-card" style="overflow: auto">
+                        <h1 class="text-center m-4">Acceso a la intranet</h1>
                         <form action="NewServlet" method="post">
                             <div class="form-group m-2">
                                 <label for="uname">User Name:</label> <input type="text" class="form-control" id="username" placeholder="User Name" name="username" required>
@@ -46,7 +46,7 @@
                             <div class="form-group m-2">
                                 <label for="uname">Password:</label> <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-primary m-2">Acceder</button>
+                            <button type="submit" class="btn btn-primary ms-2 mt-2 mb-4">Acceder</button>
                         </form>
                     </div>
                 </div>

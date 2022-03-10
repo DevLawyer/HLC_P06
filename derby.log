@@ -12,3 +12,9 @@ os.arch=amd64
 os.version=10.0
 derby.system.home=C:\Users\migva\Google Drive\08 DAM\2 Curso\06 HLC\Practica 06\HLC_P06
 Cargador de clases de base de datos iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Mar 10 23:06:35 CET 2022: cerrando motor de Derby
+----------------------------------------------------------------
+Thu Mar 10 23:06:35 CET 2022:
+Cerrando la instancia a816c00e-017f-75ad-1e14-ffffc9f97b0a en el directorio de base de datos C:\Users\migva\Google Drive\08 DAM\2 Curso\06 HLC\Practica 06\HLC_P06\LawFirm con cargador de clases sun.misc.Launcher$AppClassLoader@1d44bcfa
+----------------------------------------------------------------

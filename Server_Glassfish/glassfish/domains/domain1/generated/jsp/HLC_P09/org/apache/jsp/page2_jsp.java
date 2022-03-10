@@ -3,8 +3,10 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
+import model.Issue;
+import java.util.ArrayList;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class page2_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -30,7 +32,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     PageContext _jspx_page_context = null;
 
     try {
-      response.setContentType("text/html; charset=ISO-8859-1");
+      response.setContentType("text/html;charset=UTF-8");
       response.setHeader("X-Powered-By", "JSP/2.3");
       pageContext = _jspxFactory.getPageContext(this, request, response,
       			null, true, 8192, true);
@@ -42,6 +44,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
+      out.write("\n");
+      out.write("\n");
       out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
@@ -70,8 +74,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </button>\n");
       out.write("                    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n");
       out.write("                        <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n");
+      out.write("                            <li class=\"nav-item me-4\">\n");
+      out.write("                                <a class=\"nav-link active selected\" href=\"home.jsp\">Home</a>\n");
+      out.write("                            </li>\n");
       out.write("                            <li class=\"nav-item\">\n");
-      out.write("                                <a class=\"nav-link active selected\" href=\"index.jsp\">Home</a>\n");
+      out.write("                                <a class=\"nav-link active selected\" href=\"NewServlet2\">Log Out</a>\n");
       out.write("                            </li>\n");
       out.write("                        </ul>\n");
       out.write("                    </div>\n");
@@ -81,18 +88,41 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <main class=\"container-fluid bg-main-2 p-5\">\n");
       out.write("            <div class=\"row d-flex justify-content-center\">\n");
       out.write("                <div class=\"col-10\">\n");
-      out.write("                    <div class=\"container col-md-8 col-md-offset-3 bg-card\" style=\"overflow: auto\">\n");
-      out.write("                        <h1 class=\"text-center m-4\">Acceso a la intranet</h1>\n");
-      out.write("                        <form action=\"NewServlet\" method=\"post\">\n");
-      out.write("                            <div class=\"form-group m-2\">\n");
-      out.write("                                <label for=\"uname\">User Name:</label> <input type=\"text\" class=\"form-control\" id=\"username\" placeholder=\"User Name\" name=\"username\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"form-group m-2\">\n");
-      out.write("                                <label for=\"uname\">Password:</label> <input type=\"password\" class=\"form-control\" id=\"password\" placeholder=\"Password\" name=\"password\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                            <button type=\"submit\" class=\"btn btn-primary ms-2 mt-2 mb-4\">Acceder</button>\n");
-      out.write("                        </form>\n");
-      out.write("                    </div>\n");
+      out.write("                    <table class=\"table table-striped table-hover\">\n");
+      out.write("                        <thead>\n");
+      out.write("                            <tr>\n");
+      out.write("                                <th class=\"dcf-txt-center\" scope=\"col\">COD</th>\n");
+      out.write("                                <th class=\"dcf-txt-center\" scope=\"col\">DESCRIPCIÓN</th>\n");
+      out.write("                                <th class=\"dcf-txt-center\" scope=\"col\">FECHA INICIO</th>\n");
+      out.write("                                <th class=\"dcf-txt-center\" scope=\"col\">HORAS</th>\n");
+      out.write("                                <th class=\"dcf-txt-center\" scope=\"col\">COSTE</th>\n");
+      out.write("                            </tr>\n");
+      out.write("                        </thead>\n");
+      out.write("                        ");
+ArrayList<Issue> issueList = (ArrayList<Issue>) session.getAttribute("issue_list");
+                            for(Issue issue : issueList) {
+      out.write("\n");
+      out.write("                                <tr>\n");
+      out.write("                                    <th scope=\"row\">");
+out.print(issue.getId());
+      out.write("</th>\n");
+      out.write("                                    <td data-label=\"NAME\">");
+out.print(issue.getIssueDescription());
+      out.write("</td>\n");
+      out.write("                                    <td data-label=\"NAME\">");
+out.print(issue.getEntryDate());
+      out.write("</td>\n");
+      out.write("                                    <td data-label=\"NAME\">");
+out.print(issue.getHoursNum());
+      out.write("</td>\n");
+      out.write("                                    <td data-label=\"NAME\">");
+out.print(issue.getCost());
+      out.write("</td>\n");
+      out.write("                                </tr>\n");
+      out.write("                            ");
+}
+      out.write("\n");
+      out.write("                    </table>\n");
       out.write("                </div>\n");
       out.write("            </div>\n");
       out.write("        </main>\n");
@@ -143,7 +173,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                Pages\n");
       out.write("                            </h6>\n");
       out.write("                            <p>\n");
-      out.write("                            <a href=\"./index.jsp\" class=\"text-reset\">Home</a>\n");
+      out.write("                            <a href=\"home.jsp\" class=\"text-reset\">Home</a>\n");
       out.write("                            </p>\n");
       out.write("                        </div>\n");
       out.write("                        <!-- Grid column -->\n");
@@ -187,7 +217,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js\" integrity=\"sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p\" crossorigin=\"anonymous\"></script>\n");
       out.write("        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js\" integrity=\"sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF\" crossorigin=\"anonymous\"></script>\n");
       out.write("    </body>\n");
-      out.write("</html>\n");
+      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

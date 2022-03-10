@@ -10044,3 +10044,266 @@ java.lang.NullPointerException
 [2022-03-10T22:49:54.389+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=133 _ThreadName=Thread-8] [timeMillis: 1646948994389] [levelValue: 800] [[
   Hibernate: select client0_.COD_CLIENT as COD_CLIE1_0_, client0_.CLIENT_NAME as CLIENT_N2_0_, client0_.CLIENT_SURNAME as CLIENT_S3_0_, client0_.CLIENT_NIF as CLIENT_N4_0_, client0_.CLIENT_ADDRESS as CLIENT_A5_0_, client0_.TELEPHONE_NUM as TELEPHON6_0_, client0_.COD_LAWYER as COD_LAWY7_0_ from EMPRESA.CLIENT client0_ where cod_lawyer=?]]
 
+[2022-03-10T22:51:44.097+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=136 _ThreadName=Thread-8] [timeMillis: 1646949104097] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T22:51:47.825+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=134 _ThreadName=Thread-8] [timeMillis: 1646949107825] [levelValue: 800] [[
+  Hibernate: select client0_.COD_CLIENT as COD_CLIE1_0_, client0_.CLIENT_NAME as CLIENT_N2_0_, client0_.CLIENT_SURNAME as CLIENT_S3_0_, client0_.CLIENT_NIF as CLIENT_N4_0_, client0_.CLIENT_ADDRESS as CLIENT_A5_0_, client0_.TELEPHONE_NUM as TELEPHON6_0_, client0_.COD_LAWYER as COD_LAWY7_0_ from EMPRESA.CLIENT client0_ where cod_lawyer=?]]
+
+[2022-03-10T22:51:50.695+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=133 _ThreadName=Thread-8] [timeMillis: 1646949110695] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T22:52:03.297+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949123297] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T22:52:09.135+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=136 _ThreadName=Thread-8] [timeMillis: 1646949129135] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T22:55:39.926+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949339926] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.356+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340356] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.382+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340382] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.384+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340384] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.385+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340385] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.387+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340387] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.388+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340388] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.389+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340389] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.391+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340391] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.392+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340392] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.393+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340393] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.395+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340395] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.398+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340398] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.400+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340400] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.402+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340402] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.403+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340403] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.405+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340405] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.407+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340407] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.408+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340408] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.411+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340411] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.412+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340412] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.415+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340415] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2022-03-10T22:55:40.713+0100] [glassfish 5.1] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949340713] [levelValue: 800] [[
+  Inicializando Mojarra 2.3.9 para el contexto '/HLC_P09']]
+
+[2022-03-10T22:55:41.120+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949341120] [levelValue: 800] [[
+  Loading application [HLC_P09] at [/HLC_P09]]]
+
+[2022-03-10T22:55:41.155+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=49 _ThreadName=admin-listener(3)] [timeMillis: 1646949341155] [levelValue: 800] [[
+  HLC_P09 was successfully deployed in 2.718 milliseconds.]]
+
+[2022-03-10T22:55:55.322+0100] [glassfish 5.1] [INFO] [] [org.hibernate.annotations.common.Version] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355322] [levelValue: 800] [[
+  HCANN000001: Hibernate Commons Annotations {4.0.4.Final}]]
+
+[2022-03-10T22:55:55.364+0100] [glassfish 5.1] [INFO] [] [org.hibernate.Version] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355364] [levelValue: 800] [[
+  HHH000412: Hibernate Core {4.3.1.Final}]]
+
+[2022-03-10T22:55:55.398+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355398] [levelValue: 800] [[
+  HHH000206: hibernate.properties not found]]
+
+[2022-03-10T22:55:55.407+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Environment] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355407] [levelValue: 800] [[
+  HHH000021: Bytecode provider name : javassist]]
+
+[2022-03-10T22:55:55.571+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355571] [levelValue: 800] [[
+  HHH000043: Configuring from resource: persistence/hibernate.cfg.xml]]
+
+[2022-03-10T22:55:55.572+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355572] [levelValue: 800] [[
+  HHH000040: Configuration resource: persistence/hibernate.cfg.xml]]
+
+[2022-03-10T22:55:55.703+0100] [glassfish 5.1] [WARN] [] [org.hibernate.internal.util.xml.DTDEntityResolver] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355703] [levelValue: 900] [[
+  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!]]
+
+[2022-03-10T22:55:55.792+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355792] [levelValue: 800] [[
+  HHH000221: Reading mappings from resource: model/Entity.hbm.xml]]
+
+[2022-03-10T22:55:55.837+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355837] [levelValue: 800] [[
+  HHH000221: Reading mappings from resource: model/Issue.hbm.xml]]
+
+[2022-03-10T22:55:55.848+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355848] [levelValue: 800] [[
+  HHH000221: Reading mappings from resource: model/Client.hbm.xml]]
+
+[2022-03-10T22:55:55.862+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355862] [levelValue: 800] [[
+  HHH000221: Reading mappings from resource: model/Lawyer.hbm.xml]]
+
+[2022-03-10T22:55:55.874+0100] [glassfish 5.1] [INFO] [] [org.hibernate.cfg.Configuration] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949355874] [levelValue: 800] [[
+  HHH000041: Configured SessionFactory: null]]
+
+[2022-03-10T22:55:56.525+0100] [glassfish 5.1] [WARN] [] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356525] [levelValue: 900] [[
+  HHH000402: Using Hibernate built-in connection pool (not for production use!)]]
+
+[2022-03-10T22:55:56.532+0100] [glassfish 5.1] [INFO] [] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356532] [levelValue: 800] [[
+  HHH000401: using driver [org.apache.derby.jdbc.ClientDriver] at URL [jdbc:derby://localhost:1527/LawFirm]]]
+
+[2022-03-10T22:55:56.533+0100] [glassfish 5.1] [INFO] [] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356533] [levelValue: 800] [[
+  HHH000046: Connection properties: {user=empresa, password=****}]]
+
+[2022-03-10T22:55:56.533+0100] [glassfish 5.1] [INFO] [] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356533] [levelValue: 800] [[
+  HHH000006: Autocommit mode: false]]
+
+[2022-03-10T22:55:56.542+0100] [glassfish 5.1] [INFO] [] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356542] [levelValue: 800] [[
+  HHH000115: Hibernate connection pool size: 20 (min=1)]]
+
+[2022-03-10T22:55:56.714+0100] [glassfish 5.1] [INFO] [] [org.hibernate.dialect.Dialect] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949356714] [levelValue: 800] [[
+  HHH000400: Using dialect: org.hibernate.dialect.DB2Dialect]]
+
+[2022-03-10T22:55:57.382+0100] [glassfish 5.1] [INFO] [] [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949357382] [levelValue: 800] [[
+  HHH000399: Using default transaction strategy (direct JDBC transactions)]]
+
+[2022-03-10T22:55:57.419+0100] [glassfish 5.1] [INFO] [] [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949357419] [levelValue: 800] [[
+  HHH000397: Using ASTQueryTranslatorFactory]]
+
+[2022-03-10T22:56:00.729+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949360729] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T22:56:33.011+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949393011] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T22:56:54.620+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=135 _ThreadName=Thread-8] [timeMillis: 1646949414620] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T22:57:29.123+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=134 _ThreadName=Thread-8] [timeMillis: 1646949449123] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T22:57:37.113+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.web] [tid: _ThreadID=132 _ThreadName=http-listener-1(1)] [timeMillis: 1646949457113] [levelValue: 900] [[
+  StandardWrapperValve[jsp]: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:97)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:370)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:432)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:336)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1540)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:119)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:611)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:550)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:75)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:114)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:332)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:199)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:439)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:144)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:515)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2022-03-10T23:00:30.624+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949630624] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T23:00:32.549+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=134 _ThreadName=Thread-8] [timeMillis: 1646949632549] [levelValue: 800] [[
+  Hibernate: select client0_.COD_CLIENT as COD_CLIE1_0_, client0_.CLIENT_NAME as CLIENT_N2_0_, client0_.CLIENT_SURNAME as CLIENT_S3_0_, client0_.CLIENT_NIF as CLIENT_N4_0_, client0_.CLIENT_ADDRESS as CLIENT_A5_0_, client0_.TELEPHONE_NUM as TELEPHON6_0_, client0_.COD_LAWYER as COD_LAWY7_0_ from EMPRESA.CLIENT client0_ where cod_lawyer=?]]
+
+[2022-03-10T23:00:45.534+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=133 _ThreadName=Thread-8] [timeMillis: 1646949645534] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T23:00:47.460+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949647460] [levelValue: 800] [[
+  Hibernate: select client0_.COD_CLIENT as COD_CLIE1_0_, client0_.CLIENT_NAME as CLIENT_N2_0_, client0_.CLIENT_SURNAME as CLIENT_S3_0_, client0_.CLIENT_NIF as CLIENT_N4_0_, client0_.CLIENT_ADDRESS as CLIENT_A5_0_, client0_.TELEPHONE_NUM as TELEPHON6_0_, client0_.COD_LAWYER as COD_LAWY7_0_ from EMPRESA.CLIENT client0_ where cod_lawyer=?]]
+
+[2022-03-10T23:00:49.226+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=133 _ThreadName=Thread-8] [timeMillis: 1646949649226] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T23:00:54.548+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=136 _ThreadName=Thread-8] [timeMillis: 1646949654548] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T23:00:58.722+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=135 _ThreadName=Thread-8] [timeMillis: 1646949658722] [levelValue: 800] [[
+  Hibernate: select issue0_.COD_ISSUE as COD_ISSU1_2_, issue0_.COD_CLIENT as COD_CLIE2_2_, issue0_.COD_ENTITY as COD_ENTI3_2_, issue0_.ISSUE_DESCRIPTION as ISSUE_DE4_2_, issue0_.ENTRY_DATE as ENTRY_DA5_2_, issue0_.END_DATE as END_DATE6_2_, issue0_.HOURS_NUM as HOURS_NU7_2_, issue0_.COST as COST8_2_ from EMPRESA.ISSUE issue0_ where cod_client=?]]
+
+[2022-03-10T23:06:17.299+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=132 _ThreadName=Thread-8] [timeMillis: 1646949977299] [levelValue: 800] [[
+  Hibernate: select lawyer0_.COD_LAWYER as COD_LAWY1_3_, lawyer0_.LAWYER_NIF as LAWYER_N2_3_, lawyer0_.LAWYER_NAME as LAWYER_N3_3_, lawyer0_.LAWYER_SURNAME as LAWYER_S4_3_, lawyer0_.PHONE_EXT as PHONE_EX5_3_, lawyer0_.USER_NAME as USER_NAM6_3_, lawyer0_.USER_PASSWORD as USER_PAS7_3_, lawyer0_.PHOTO as PHOTO8_3_, lawyer0_.ENTRY_DATE as ENTRY_DA9_3_, lawyer0_.HOURS_FEE as HOURS_F10_3_ from EMPRESA.LAWYER lawyer0_ where USER_NAME=? and USER_PASSWORD=?]]
+
+[2022-03-10T23:06:28.028+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=431 _ThreadName=Thread-44] [timeMillis: 1646949988028] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2022-03-10T23:06:28.028+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=432 _ThreadName=Thread-45] [timeMillis: 1646949988028] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2022-03-10T23:06:28.035+0100] [glassfish 5.1] [WARNING] [NCLS-BOOTSTRAP-00029] [javax.enterprise.bootstrap] [tid: _ThreadID=431 _ThreadName=Thread-44] [timeMillis: 1646949988035] [levelValue: 900] [[
+  Exception while unregistering: 
+java.lang.IllegalStateException: Service already unregistered.
+	at org.apache.felix.framework.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:140)
+	at com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl.unregisterService(EmbeddedOSGiGlassFishImpl.java:68)
+	at com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl.stop(EmbeddedOSGiGlassFishImpl.java:56)
+	at com.sun.enterprise.v3.admin.StopServer.doExecute(StopServer.java:55)
+	at com.sun.enterprise.v3.admin.StopDomainCommand.execute(StopDomainCommand.java:73)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:516)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:512)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:511)
+	at org.glassfish.api.AsyncImpl$1$1.run(AsyncImpl.java:53)
+]]
+
+[2022-03-10T23:06:28.040+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=431 _ThreadName=Thread-8] [timeMillis: 1646949988040] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2022-03-10T23:06:28.126+0100] [glassfish 5.1] [INFO] [NCLS-BOOTSTRAP-00028] [javax.enterprise.bootstrap] [tid: _ThreadID=432 _ThreadName=Thread-45] [timeMillis: 1646949988126] [levelValue: 800] [[
+  Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@11a7ba62 from service registry.]]
+
+[2022-03-10T23:06:28.129+0100] [glassfish 5.1] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=431 _ThreadName=Thread-44] [timeMillis: 1646949988129] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2022-03-10T23:06:28.132+0100] [glassfish 5.1] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=431 _ThreadName=Thread-44] [timeMillis: 1646949988132] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2022-03-10T23:06:28.473+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=438 _ThreadName=Thread-8] [timeMillis: 1646949988473] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+

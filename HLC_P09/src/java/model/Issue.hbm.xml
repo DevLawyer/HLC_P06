@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-mar-2022 19:53:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Issue" table="ISSUE" schema="EMPRESA" optimistic-lock="version">
+        <composite-id name="id" class="model.IssueId">
+            <key-property name="codIssue" type="int">
+                <column name="COD_ISSUE" />
+            </key-property>
+            <key-property name="codClient" type="int">
+                <column name="COD_CLIENT" />
+            </key-property>
+            <key-property name="codEntity" type="int">
+                <column name="COD_ENTITY" />
+            </key-property>
+        </composite-id>
+        <property name="issueDescription" type="string">
+            <column name="ISSUE_DESCRIPTION" length="50" />
+        </property>
+        <property name="entryDate" type="date">
+            <column name="ENTRY_DATE" length="10" not-null="true" />
+        </property>
+        <property name="endDate" type="date">
+            <column name="END_DATE" length="10" />
+        </property>
+        <property name="hoursNum" type="java.lang.Integer">
+            <column name="HOURS_NUM" precision="5" scale="0" />
+        </property>
+        <property name="cost" type="java.lang.Integer">
+            <column name="COST" precision="5" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

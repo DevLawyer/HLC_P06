@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-mar-2022 19:53:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Client" table="CLIENT" schema="EMPRESA" optimistic-lock="version">
+        <id name="codClient" type="int">
+            <column name="COD_CLIENT" />
+            <generator class="assigned" />
+        </id>
+        <property name="clientName" type="string">
+            <column name="CLIENT_NAME" length="30" not-null="true" />
+        </property>
+        <property name="clientSurname" type="string">
+            <column name="CLIENT_SURNAME" length="30" />
+        </property>
+        <property name="clientNif" type="string">
+            <column name="CLIENT_NIF" length="10" />
+        </property>
+        <property name="clientAddress" type="string">
+            <column name="CLIENT_ADDRESS" length="30" />
+        </property>
+        <property name="telephoneNum" type="string">
+            <column name="TELEPHONE_NUM" length="15" not-null="true" />
+        </property>
+        <property name="codLawyer" type="int">
+            <column name="COD_LAWYER" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

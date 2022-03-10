@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-mar-2022 19:53:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Entity" table="ENTITY" schema="EMPRESA" optimistic-lock="version">
+        <id name="codEntity" type="int">
+            <column name="COD_ENTITY" />
+            <generator class="assigned" />
+        </id>
+        <property name="entityName" type="string">
+            <column name="ENTITY_NAME" length="40" />
+        </property>
+        <property name="entityAddress" type="string">
+            <column name="ENTITY_ADDRESS" length="30" />
+        </property>
+        <property name="telephoneNum" type="string">
+            <column name="TELEPHONE_NUM" length="15" />
+        </property>
+    </class>
+</hibernate-mapping>
